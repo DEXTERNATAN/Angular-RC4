@@ -34,7 +34,7 @@ var OutputPropertyComponent = (function () {
         core_1.Component({
             moduleId: module.id,
             selector: 'contador',
-            template: "\n    <div>\n      <button type=\"button\" class=\"btn btn-primary\"\n        (click)=\"decrementa()\">-</button>\n      <input type=\"text\" [value]=\"valor\"  readonly>\n      <button type=\"button\" class=\"btn btn-primary\"\n      (click)=\"incrementa()\">+</button>\n    </div>\n  " //,
+            template: "\n    <div>\n      <button type=\"button\" class=\"btn btn-primary\"\n        (click)=\"decrementa()\">-</button>\n      <input type=\"text\" [value]=\"valor\"  readonly>\n      <button type=\"button\" class=\"btn btn-primary\"\n      (click)=\"incrementa()\">+</button>\n    </div>\n  "
         }), 
         __metadata('design:paramtypes', [])
     ], OutputPropertyComponent);

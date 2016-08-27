@@ -1,5 +1,10 @@
 import { Component } from '@angular/core';
 
+import { DataBindingComponent } from './data-binding/data-binding.component';
+
+import { LifeCycleComponent } from './ciclo/life-cycle.component';
+
+
 @Component({
     selector: 'my-app',
     template: `

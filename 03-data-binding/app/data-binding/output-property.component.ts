@@ -11,7 +11,7 @@ import { Component, Input, EventEmitter, Output } from '@angular/core';
       <button type="button" class="btn btn-primary"
       (click)="incrementa()">+</button>
     </div>
-  `//,
+  `
   //outputs: ['mudouValor']
 })
 export class OutputPropertyComponent {

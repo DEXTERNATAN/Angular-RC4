@@ -116,9 +116,11 @@
         </div>
 
         <div>
-          Meu nome é {{ pessoa.nome }} e tenho {{ pessoa. idade }} anos de idade.
+          Meu nome é {{ pessoa.nome }} e tenho {{ pessoa.idade }} anos de idade.
+          
           <input type="text" [(ngModel)]="pessoa.nome"  />
           <input type="text" [(ngModel)]="pessoa.idade"  />
+       
         </div>
     </article>
 </section>
