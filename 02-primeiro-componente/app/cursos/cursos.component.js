@@ -19,15 +19,6 @@ var CursosComponent = (function () {
         core_1.Component({
             moduleId: module.id,
             selector: 'cursos-lista',
-            /* template:  `
-          
-                <h3>Ola, meu nome é {{ nome }}</h3>
-                <ul>
-                  <li *ngFor = "let curso of cursos">
-                    {{ curso }}
-                  </li>
-                </ul>
-            `*/
             templateUrl: 'cursos.component.html',
             providers: [cursos_service_1.CursosService]
         }), 

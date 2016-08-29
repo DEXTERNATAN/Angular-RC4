@@ -15,7 +15,7 @@ import { LifeCycleComponent } from './ciclo/life-cycle.component';
     ],
     declarations: [
         AppComponent,
-        LifeCycleComponent
+       LifeCycleComponent
     ],
     bootstrap: [ AppComponent ]
 })
