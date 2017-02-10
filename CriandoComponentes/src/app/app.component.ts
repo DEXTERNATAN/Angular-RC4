@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Segundo teste via terminal...';
+  valor = 2;
+
 }
