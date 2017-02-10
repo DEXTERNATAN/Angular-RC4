@@ -5,11 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { DiretivasNgifComponent } from './diretivas-ngif/diretivas-ngif.component';
+import { TesteLASSComponent } from './teste-lass/teste-lass.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DiretivasNgifComponent
+    DiretivasNgifComponent,
+    TesteLASSComponent
   ],
   imports: [
     BrowserModule,
