@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'db',
   templateUrl: './data-binding.component.html',
@@ -13,7 +14,7 @@ export class DataBindingComponent implements OnInit {
   }
   url = "http://www.linkeding.com";
 
-  urlImg = ""
+  urlImg = "http://lorempixel.com/400/200/sports/1/";
 
   getValor(){
     return 1;

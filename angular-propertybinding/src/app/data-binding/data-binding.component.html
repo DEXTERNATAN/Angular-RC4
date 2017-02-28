@@ -6,5 +6,16 @@
     <p>Resultado de 1 + 1 é {{1 + 1}}</p>
     <p>Resultado de 1 + 1 não é {{1 + 1 + getValor()}}</p>
   </article>
+  <article>
+    <h2>Property Binding</h2>
+    <img [src] = urlImg />
+    <img src="{{ urlImg }}" />
+    <img bind-src="urlImg"/>
+    <!--
+    <img src="{{ urlImg }}" />
+    <img [src] = urlImg />  <-unica que funciona
+    <img bind-src="urlImg"/>
+    -->
+  </article>
 
 </section>
