@@ -1,0 +1,36 @@
+
+<section>
+  <article>
+    <h1>Event Binding</h1>
+    <div>
+      <button (click)="onClick()">Me clique</button>
+
+      <input type="text" 
+      (keyup)="onKeyup($event)"
+      (keyup.enter)="onSave(campo.value)"
+      (blur)="onSave(campo.value)"
+      #campo
+      
+      />
+      <div style="background-color: #ccc;">
+        <h1>Conteúdo atual</h1>
+        <h3>{{conteudoAtual}}</h3>
+      </div>
+      <div style="background-color: red;">
+        <h1>Conteúdo Salvo</h1>
+        <h3>{{conteudoSalvo}}</h3>
+      </div>
+
+      <span
+      (mouseover)="onMouse()"
+      (mouseout)="onMouse()"
+      [class.highlight]="isMouseOver"
+      
+      >
+      Passe o mouse sobre mim</span>
+
+
+
+    </div>
+  </article>
+</section>
