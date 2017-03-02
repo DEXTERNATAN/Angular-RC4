@@ -1,0 +1,72 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\Ruby23\bin;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Services\IPT\;C:\Git\cmd;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin;C:\Users\Developer\Anaconda3;C:\Users\Developer\Anaconda3\Scripts;C:\Users\Developer\Anaconda3\Library\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Developer\AppData\Roaming\npm;C:\Users\Developer\AppData\Local\Yarn\.bin;C:\Program Files (x86)\Microsoft VS Code\bin
+
+Yarn version: 
+  0.19.1
+
+Node version: 
+  6.9.5
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "angular-output",
+    "version": "0.0.0",
+    "license": "MIT",
+    "angular-cli": {},
+    "scripts": {
+      "ng": "ng",
+      "start": "ng serve",
+      "test": "ng test",
+      "lint": "ng lint",
+      "e2e": "ng e2e"
+    },
+    "private": true,
+    "dependencies": {
+      "@angular/common": "^2.4.0",
+      "@angular/compiler": "^2.4.0",
+      "@angular/core": "^2.4.0",
+      "@angular/forms": "^2.4.0",
+      "@angular/http": "^2.4.0",
+      "@angular/platform-browser": "^2.4.0",
+      "@angular/platform-browser-dynamic": "^2.4.0",
+      "@angular/router": "^3.4.0",
+      "core-js": "^2.4.1",
+      "rxjs": "^5.0.1",
+      "ts-helpers": "^1.1.1",
+      "zone.js": "^0.7.2"
+    },
+    "devDependencies": {
+      "@angular/cli": "1.0.0-beta.31",
+      "@angular/compiler-cli": "^2.4.0",
+      "@types/jasmine": "2.5.38",
+      "@types/node": "^6.0.42",
+      "codelyzer": "~2.0.0-beta.1",
+      "jasmine-core": "2.5.2",
+      "jasmine-spec-reporter": "2.5.0",
+      "karma": "1.2.0",
+      "karma-chrome-launcher": "^2.0.0",
+      "karma-cli": "^1.0.1",
+      "karma-jasmine": "^1.0.2",
+      "karma-coverage-istanbul-reporter": "^0.2.0",
+      "protractor": "~5.1.0",
+      "ts-node": "1.2.1",
+      "tslint": "^4.3.0",
+      "typescript": "~2.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@angular/http/-/http-2.4.9.tgz: ENOENT: no such file or directory, chmod 'C:\Users\Developer\AppData\Local\Yarn\cache\npm-@angular\http-2.4.9-a7de980d564ac25a497c5e822d2b941c1f143d48\src\backends\jsonp_backend.metadata.json'
+      at Error (native)
