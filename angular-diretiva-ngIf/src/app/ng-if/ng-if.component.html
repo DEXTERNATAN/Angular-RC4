@@ -1,0 +1,34 @@
+<h1>Diretivas - *ngIf</h1>
+
+<div *ngIf = "curso.length > 0">
+  <p>Lista de Cursos fazendo uso do ngIf</p>
+</div>
+<div *ngIf = "curso.length == 0">
+  <p>Cursos igual ou menores que 0 - zero</p>
+</div>
+<h1>Outra forma de uso do ngIf no angular 2</h1>
+<div *ngIf = "mostrarCursos">
+  <p>Mostrando cursos</p>
+</div>
+<div *ngIf = "!mostrarCursos">
+  <p>Não existe cursos</p>
+</div>
+<div>
+  <button (click)="onMostrarCursos()">Mostrar ou esconder Cursos</button>
+</div>
+
+<h1>Uso do hidden</h1>
+<div [hidden] = "!mostrarCursos">
+  <p>Mostrando cursos</p>
+</div>
+<div [hidden]= "mostrarCursos">
+  <p>Não existe cursos</p>
+</div>
+<h1>Usando imagens</h1>
+<div *ngIf="mostrarImg">
+  <img src="./assets/001.png"/>
+</div>
+<div *ngIf="mostrarImg == false">
+  <img src="./assets/002.png"/>
+</div>
+<button (click)="onMostrarIMG()">MOSTRAR IMG</button>
