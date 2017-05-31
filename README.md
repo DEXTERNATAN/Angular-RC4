@@ -1,7 +1,7 @@
 # ANGULAR 2
 
 ## Instalação via terminal
-## Cadastro [#cadastro]
+## [Cadastro](#cadastro)
 
 Angular-CLI
 
@@ -15,5 +15,8 @@ Abra um terminal e utilize os comandos
  - ng serve OU npm start
  
 Ele rodará na porta 4200 do seu navegador - http://localhost:4200
+
+### Cadastro
+Cadastro realizando primeNG
 
 
