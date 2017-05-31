@@ -1,7 +1,7 @@
 # ANGULAR 2
 
 ## Instalação via terminal
-## [-Cadastro](#cadastro)
+## [Cadastro](#cadastro)
 
 Angular-CLI
 
